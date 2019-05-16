@@ -21,9 +21,9 @@ docker-compose up -d
 
 Una vez levantada la aplicacion debemos configurar el schema y los datos de las reservas "solo la primera vez" el resto de veces es al ser fichero persistente se guarda solo
  ```
-docker exec -i 5.7-mysql mysql -ubookedscheduler -p123secret bookedscheduler < create-schema.sql 
-docker exec -i 5.7-mysql mysql -ubookedscheduler -p123secret bookedscheduler < create-data.sql 
-docker exec -i 5.7-mysql mysql -ubookedscheduler -p123secret bookedscheduler < bookedscheduler.sql 
+docker exec -i reserva-espacios-mysql mysql -ubookedscheduler -p123secret bookedscheduler < create-schema.sql 
+docker exec -i reserva-espacios-mysql mysql -ubookedscheduler -p123secret bookedscheduler < create-data.sql 
+docker exec -i reserva-espacios-mysql mysql -ubookedscheduler -p123secret bookedscheduler < bookedscheduler.sql 
 ```
 
 ## Acceso a la aplicacion
