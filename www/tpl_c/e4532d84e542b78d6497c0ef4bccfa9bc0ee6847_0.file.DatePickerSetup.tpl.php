@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-13 16:02:08
+/* Smarty version 3.1.30, created on 2019-05-16 07:52:11
   from "/var/www/reservaespacios/html/booked/tpl/Controls/DatePickerSetup.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cd995008b6d70_45809531',
+  'unifunc' => 'content_5cdd16abe00a76_00244667',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd995008b6d70_45809531 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cdd16abe00a76_00244667 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'datePickerDateFormat' => 
   array (
     'compiled_filepath' => '/var/www/reservaespacios/html/booked/tpl_c/e4532d84e542b78d6497c0ef4bccfa9bc0ee6847_0.file.DatePickerSetup.tpl.php',
     'uid' => 'e4532d84e542b78d6497c0ef4bccfa9bc0ee6847',
-    'call_name' => 'smarty_template_function_datePickerDateFormat_11114253565cd99500810260_76456241',
+    'call_name' => 'smarty_template_function_datePickerDateFormat_12393943225cdd16abd70e97_56913923',
   ),
 ));
 ?>
@@ -115,9 +115,9 @@ echo strtr($_prefixVariable4, array("\\" => "\\\\", "'" => "\\'", "\"" => "\\\""
     });
 <?php echo '</script'; ?>
 ><?php }
-/* smarty_template_function_datePickerDateFormat_11114253565cd99500810260_76456241 */
-if (!function_exists('smarty_template_function_datePickerDateFormat_11114253565cd99500810260_76456241')) {
-function smarty_template_function_datePickerDateFormat_11114253565cd99500810260_76456241($_smarty_tpl,$params) {
+/* smarty_template_function_datePickerDateFormat_12393943225cdd16abd70e97_56913923 */
+if (!function_exists('smarty_template_function_datePickerDateFormat_12393943225cdd16abd70e97_56913923')) {
+function smarty_template_function_datePickerDateFormat_12393943225cdd16abd70e97_56913923($_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }?>
@@ -127,5 +127,5 @@ new Date(<?php echo $_smarty_tpl->tpl_vars['date']->value->Year();?>
 )
 <?php
 }}
-/*/ smarty_template_function_datePickerDateFormat_11114253565cd99500810260_76456241 */
+/*/ smarty_template_function_datePickerDateFormat_12393943225cdd16abd70e97_56913923 */
 }

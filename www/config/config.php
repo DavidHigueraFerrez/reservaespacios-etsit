@@ -3,7 +3,7 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);
 
 $conf['settings']['app.title'] = 'Reserva Espacios ETSIT';
 $conf['settings']['default.timezone'] = 'Europe/Paris';
-$conf['settings']['allow.self.registration'] = 'true';
+$conf['settings']['allow.self.registration'] = 'false';
 $conf['settings']['admin.email'] = 'david.higuera.ferrez@alumnos.upm.es';
 $conf['settings']['admin.email.name'] = 'Booked Administrator';
 $conf['settings']['default.page.size'] = '50';
@@ -38,7 +38,6 @@ $conf['settings']['ics']['subscription.key'] = '4db97354d0a0e7787752';
 $conf['settings']['ics']['future.days'] = '30';
 $conf['settings']['ics']['past.days'] = '0';
 $conf['settings']['privacy']['view.schedules'] = 'true';
-$conf['settings']['privacy']['view.reservations'] = 'false';
 $conf['settings']['privacy']['hide.user.details'] = 'true';
 $conf['settings']['privacy']['hide.reservation.details'] = 'true';
 $conf['settings']['privacy']['allow.guest.reservations'] = 'false';
