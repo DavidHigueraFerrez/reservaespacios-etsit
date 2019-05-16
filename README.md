@@ -29,7 +29,16 @@ docker exec -i 5.7-mysql mysql -ubookedscheduler -p123secret bookedscheduler < b
 
 Los siguientes pasos son para cuando se despliega la aplicacion para una actualizacion de codigo y se quiere mantener las reservas de la bddd anterior
 
-Necesario hacer un "dump" de la bbdd previo al al build para luego cargar la nueva informacion del contenedor
+Necesario hacer un "dump" de la bbdd previo al al build para luego cargar la nueva informacion del contenedor.Pasos del script
+Prepara script
+```
+# Backup
+docker exec 5.7-mysql /usr/bin/mysqldump -u bookedscheduler --password=root bookedscheduler > bookedscheduler.sql
+
+# Restore
+cat backup.sql | docker exec -i 5.7-mysql /usr/bin/mysql -u bookedscheduler --password=root bookedscheduler
+
+```
 
 ## Acceso a la aplicacion
 La aplicacion estara desplegada en el puerto 81 y accesible sobre el contexto de /reservaespacios/
