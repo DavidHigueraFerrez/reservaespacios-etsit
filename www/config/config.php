@@ -10,8 +10,8 @@ $conf['settings']['default.page.size'] = '50';
 $conf['settings']['enable.email'] = 'true';
 $conf['settings']['default.language'] = 'es';
 
-//$conf['settings']['script.url'] = 'http://localhost/reservaespacios/Web';
-$conf['settings']['script.url'] = 'http://pruebas.etsit.upm.es/reservaespacios/Web';
+$conf['settings']['script.url'] = 'http://localhost/reservaespacios/Web';
+//$conf['settings']['script.url'] = 'http://pruebas.etsit.upm.es/reservaespacios/Web';
 
 $conf['settings']['image.upload.directory'] = 'Web/uploads/images';
 $conf['settings']['image.upload.url'] = 'uploads/images';
@@ -26,8 +26,8 @@ $conf['settings']['name.format'] = '{first} {last}';
 $conf['settings']['css.extension.file'] = '';
 $conf['settings']['disable.password.reset'] = 'false';
 
-//$conf['settings']['home.url'] = 'https://localhost/reservaespacios/Web/view-schedule.php';
-$conf['settings']['home.url'] = 'https://pruebas.etsit.upm.es/reservaespacios/Web/view-schedule.php';
+$conf['settings']['home.url'] = 'https://localhost/reservaespacios/Web/view-schedule.php';
+//$conf['settings']['home.url'] = 'https://pruebas.etsit.upm.es/reservaespacios/Web/view-schedule.php';
 $conf['settings']['logout.url'] = '';
 $conf['settings']['default.homepage'] = '4';
 $conf['settings']['schedule']['use.per.user.colors'] = 'false';

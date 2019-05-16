@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-13 14:46:47
+/* Smarty version 3.1.30, created on 2019-05-13 16:02:07
   from "/var/www/reservaespacios/html/booked/tpl/Schedule/schedule-reservations-grid.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cd98357546ee9_99517616',
+  'unifunc' => 'content_5cd994ffc27a95_93055765',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd98357546ee9_99517616 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cd994ffc27a95_93055765 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'displaySlot' => 
   array (
     'compiled_filepath' => '/var/www/reservaespacios/html/booked/tpl_c/6abf44c73dba0a58dbc6924477f1d2753712e2da_0.file.schedule-reservations-grid.tpl.php',
     'uid' => '6abf44c73dba0a58dbc6924477f1d2753712e2da',
-    'call_name' => 'smarty_template_function_displaySlot_7744874425cd983573fd4b6_49774116',
+    'call_name' => 'smarty_template_function_displaySlot_18948931485cd994ffb8aa66_69772355',
   ),
 ));
 ?>
@@ -146,9 +146,9 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 }
-/* smarty_template_function_displaySlot_7744874425cd983573fd4b6_49774116 */
-if (!function_exists('smarty_template_function_displaySlot_7744874425cd983573fd4b6_49774116')) {
-function smarty_template_function_displaySlot_7744874425cd983573fd4b6_49774116($_smarty_tpl,$params) {
+/* smarty_template_function_displaySlot_18948931485cd994ffb8aa66_69772355 */
+if (!function_exists('smarty_template_function_displaySlot_18948931485cd994ffb8aa66_69772355')) {
+function smarty_template_function_displaySlot_18948931485cd994ffb8aa66_69772355($_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }?>
@@ -156,5 +156,5 @@ $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRende
 
 <?php
 }}
-/*/ smarty_template_function_displaySlot_7744874425cd983573fd4b6_49774116 */
+/*/ smarty_template_function_displaySlot_18948931485cd994ffb8aa66_69772355 */
 }
