@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-13 14:46:58
+/* Smarty version 3.1.30, created on 2019-05-27 10:15:03
   from "/var/www/reservaespacios/html/booked/tpl/globalheader.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cd983624e2a40_75445990',
+  'unifunc' => 'content_5cebb8a72ed6d5_86132175',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1299411c89186acf40a4565000024aa6718b771d' => 
     array (
       0 => '/var/www/reservaespacios/html/booked/tpl/globalheader.tpl',
-      1 => 1556777046,
+      1 => 1558950696,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd983624e2a40_75445990 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cebb8a72ed6d5_86132175 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 
@@ -560,7 +560,7 @@ logout.php"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_F
                      
       
 			<?php echo '<script'; ?>
- src="https://pruebas.etsit.upm.es/pdi/static-button-gestiondoc"><?php echo '</script'; ?>
+ src="https://portal.etsit.upm.es/pdi/static-button"><?php echo '</script'; ?>
 >
 			
 			<li id="navSignOut">

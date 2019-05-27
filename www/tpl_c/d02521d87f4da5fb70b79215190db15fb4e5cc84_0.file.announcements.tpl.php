@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-13 14:47:33
+/* Smarty version 3.1.30, created on 2019-05-27 09:51:42
   from "/var/www/reservaespacios/html/booked/tpl/Dashboard/announcements.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cd98385801258_78924035',
+  'unifunc' => 'content_5cebb32ee7ca68_58871347',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd02521d87f4da5fb70b79215190db15fb4e5cc84' => 
     array (
       0 => '/var/www/reservaespacios/html/booked/tpl/Dashboard/announcements.tpl',
-      1 => 1556777046,
+      1 => 1557996914,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd98385801258_78924035 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cebb32ee7ca68_58871347 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="dashboard" id="announcementsDashboard">

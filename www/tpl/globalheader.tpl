@@ -368,7 +368,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
                      <!--   <li id="navSignOut"><a href="{$Path}logout.php">{translate key="SignOut"}</a></li> -->
                      
       
-			<script src="https://pruebas.etsit.upm.es/pdi/static-button-gestiondoc"></script>
+			<script src="https://portal.etsit.upm.es/pdi/static-button"></script>
 			
 			<li id="navSignOut">
 					<ul id="buttonStatic" style="margin-left: 30px;"></ul>

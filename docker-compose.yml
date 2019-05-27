@@ -6,27 +6,23 @@ services:
       context: ./bin/webserver
     container_name: 'reserva-espacios-webserver'
     restart: 'always'
-    ports:
-      - "80:80"
-      - "443:443"
     links: 
       - mysql
-    volumes: 
-      - ${DOCUMENT_ROOT-./www}:/var/www/reservaespacios/html/booked
-      - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
-      - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
-      - ${LOG_DIR-./logs/apache2}:/var/log/apache2
   mysql:
     build: ./bin/mysql
     container_name: 'reserva-espacios-mysql'
     restart: 'always'
-    ports:
-      - "3306:3306"
     volumes: 
-      - ${MYSQL_DATA_DIR-./data/mysql}:/var/www/reservaespacios/html/booked
-      - ${MYSQL_LOG_DIR-./logs/mysql}:/var/www/reservaespacios/html/booked
+      - dbdata:/var/lib/mysql
+      - dblogs:/var/logs/mysql
+    ports:
+      - "3306"
     environment:
       MYSQL_DATABASE: bookedscheduler
       MYSQL_ROOT_PASSWORD: 123secret
       MYSQL_USER: bookedscheduler
       MYSQL_PASSWORD: 123secret
+
+volumes:
+  dbdata:
+  dblogs:

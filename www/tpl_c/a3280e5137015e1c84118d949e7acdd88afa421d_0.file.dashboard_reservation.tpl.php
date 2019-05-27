@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-13 14:47:33
+/* Smarty version 3.1.30, created on 2019-05-27 09:51:43
   from "/var/www/reservaespacios/html/booked/tpl/Dashboard/dashboard_reservation.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cd98385dd5d63_26286764',
+  'unifunc' => 'content_5cebb32f456ec1_50969209',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3280e5137015e1c84118d949e7acdd88afa421d' => 
     array (
       0 => '/var/www/reservaespacios/html/booked/tpl/Dashboard/dashboard_reservation.tpl',
-      1 => 1556777046,
+      1 => 1557996914,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd98385dd5d63_26286764 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cebb32f456ec1_50969209 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('checkin', $_smarty_tpl->tpl_vars['reservation']->value->IsCheckinEnabled() && $_smarty_tpl->tpl_vars['reservation']->value->RequiresCheckin());
 $_smarty_tpl->_assignInScope('checkout', $_smarty_tpl->tpl_vars['reservation']->value->IsCheckinEnabled() && $_smarty_tpl->tpl_vars['reservation']->value->RequiresCheckout());
 $_smarty_tpl->_assignInScope('class', '');

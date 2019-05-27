@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-16 08:50:10
+/* Smarty version 3.1.30, created on 2019-05-27 09:27:32
   from "/var/www/reservaespacios/html/booked/tpl/login.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cdd2442b24ca3_41579347',
+  'unifunc' => 'content_5cebad847973d0_57275780',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9acea9b76ed9b981df760d175a725318d56b73d9' => 
     array (
       0 => '/var/www/reservaespacios/html/booked/tpl/login.tpl',
-      1 => 1556777046,
+      1 => 1557996914,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:globalfooter.tpl' => 1,
   ),
 ),false)) {
-function content_5cdd2442b24ca3_41579347 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cebad847973d0_57275780 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php $_smarty_tpl->_subTemplateRender("file:globalheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

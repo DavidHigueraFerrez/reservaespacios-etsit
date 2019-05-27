@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-16 08:50:23
+/* Smarty version 3.1.30, created on 2019-05-27 10:15:39
   from "/var/www/reservaespacios/html/booked/tpl/Controls/DatePickerSetup.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5cdd244f397a27_89426404',
+  'unifunc' => 'content_5cebb8cb42fad6_60689385',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e4532d84e542b78d6497c0ef4bccfa9bc0ee6847' => 
     array (
       0 => '/var/www/reservaespacios/html/booked/tpl/Controls/DatePickerSetup.tpl',
-      1 => 1556777046,
+      1 => 1557996914,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cdd244f397a27_89426404 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cebb8cb42fad6_60689385 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'datePickerDateFormat' => 
   array (
     'compiled_filepath' => '/var/www/reservaespacios/html/booked/tpl_c/e4532d84e542b78d6497c0ef4bccfa9bc0ee6847_0.file.DatePickerSetup.tpl.php',
     'uid' => 'e4532d84e542b78d6497c0ef4bccfa9bc0ee6847',
-    'call_name' => 'smarty_template_function_datePickerDateFormat_14271157535cdd244f2f1604_82258752',
+    'call_name' => 'smarty_template_function_datePickerDateFormat_10572258525cebb8cb3a5e21_63816185',
   ),
 ));
 ?>
@@ -115,9 +115,9 @@ echo strtr($_prefixVariable4, array("\\" => "\\\\", "'" => "\\'", "\"" => "\\\""
     });
 <?php echo '</script'; ?>
 ><?php }
-/* smarty_template_function_datePickerDateFormat_14271157535cdd244f2f1604_82258752 */
-if (!function_exists('smarty_template_function_datePickerDateFormat_14271157535cdd244f2f1604_82258752')) {
-function smarty_template_function_datePickerDateFormat_14271157535cdd244f2f1604_82258752($_smarty_tpl,$params) {
+/* smarty_template_function_datePickerDateFormat_10572258525cebb8cb3a5e21_63816185 */
+if (!function_exists('smarty_template_function_datePickerDateFormat_10572258525cebb8cb3a5e21_63816185')) {
+function smarty_template_function_datePickerDateFormat_10572258525cebb8cb3a5e21_63816185($_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }?>
@@ -127,5 +127,5 @@ new Date(<?php echo $_smarty_tpl->tpl_vars['date']->value->Year();?>
 )
 <?php
 }}
-/*/ smarty_template_function_datePickerDateFormat_14271157535cdd244f2f1604_82258752 */
+/*/ smarty_template_function_datePickerDateFormat_10572258525cebb8cb3a5e21_63816185 */
 }
