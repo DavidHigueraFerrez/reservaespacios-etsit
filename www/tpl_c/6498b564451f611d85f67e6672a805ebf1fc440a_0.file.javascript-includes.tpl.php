@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-05-27 07:49:37
+/* Smarty version 3.1.30, created on 2019-05-30 12:03:31
   from "/var/www/reservaespacios/html/booked/tpl/javascript-includes.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5ceb9691553496_58965790',
+  'unifunc' => 'content_5cefc693ba8cb8_39458714',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ceb9691553496_58965790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cefc693ba8cb8_39458714 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['UseLocalJquery']->value) {?>
